@@ -1,5 +1,5 @@
 # CubeSat 1U — COMMS-first (UHF baseline)
-[![CI](https://github.com/SvetLuna/cubesat-1u-comms-first/actions/workflows/ci.yml/badge.svg)](https://github.com/SvetLuna/cubesat-1u-comms-first/actions/workflows/ci.yml)
+[![CI](https://github.com/SvetLuna-Lab/cubesat-1u-comms-first/actions/workflows/ci.yml/badge.svg)](https://github.com/SvetLuna/cubesat-1u-comms-first/actions/workflows/ci.yml)
 
 COMMS-first engineering skeleton for a 1U CubeSat: a reproducible pipeline from mission assumptions to an actionable radio link.
 
@@ -71,7 +71,7 @@ The link budget script prints:
 
 - Add S-band downlink profile once the baseline is closed with margins.
 
-## version: "0.1.0"
+## version: 0.1.0 release
 
 ## Regulatory note
 
