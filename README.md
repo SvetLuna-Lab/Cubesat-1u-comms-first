@@ -37,22 +37,4 @@ regulations and coordination processes (e.g., IARU where applicable).
 
 ---
 
-### `configs/baseline_uhf.yaml`
-```yaml
-mission:
-  name: "1U COMMS-first baseline"
-  orbit_altitude_km: 550
-  slant_range_km: 1200        # conservative mid-pass value
-  v_rel_mps: 7500             # LEO relative speed order
 
-radio:
-  downlink_freq_hz: 437500000     # placeholder UHF frequency
-  tx_power_dbm: 30                # 1 W
-  tx_line_loss_db: 1.5
-  tx_antenna_gain_dbi: 2.0
-  rx_antenna_gain_dbi: 12.0       # small Yagi / helix class
-  rx_line_loss_db: 1.0
-  misc_losses_db: 2.0             # polarization, pointing, implementation margin
-  system_noise_temp_k: 450        # ground receiver system temperature (order)
-  bitrate_bps: 9600               # conservative baseline
-```
