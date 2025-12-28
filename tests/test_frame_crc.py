@@ -6,6 +6,8 @@ def test_frame_crc_matches():
     frame = build_baseline_beacon(payload)
 
     sync = frame[:4]
+    assert sync == bytes.fromhex("1ACFFC1D")
+
     length = frame[4]
     body = frame[:5 + length]  # sync + len + payload
     crc_read = int.from_bytes(frame[5 + length: 7 + length], "big")
