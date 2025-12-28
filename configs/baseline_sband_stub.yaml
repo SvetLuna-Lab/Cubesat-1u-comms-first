@@ -1,0 +1,16 @@
+mission:
+  name: "S-band downlink stub"
+  orbit_altitude_km: 550
+  slant_range_km: 1200
+  v_rel_mps: 7500
+
+radio:
+  downlink_freq_hz: 2250000000    # placeholder S-band
+  tx_power_dbm: 33                # 2 W placeholder
+  tx_line_loss_db: 2.0
+  tx_antenna_gain_dbi: 6.0
+  rx_antenna_gain_dbi: 18.0
+  rx_line_loss_db: 1.5
+  misc_losses_db: 3.0
+  system_noise_temp_k: 550
+  bitrate_bps: 100000             # later, once budget is closed
